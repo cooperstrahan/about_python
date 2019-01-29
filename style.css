@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    /* outline: 1px dotted orange; */
+}
+#container {
+    background-color: #245077;
+    height: 750px;
+    width:1000px;
+    margin: 0px auto;
+}
+#header {
+    height:125px;
+}
+#pythonpic {
+    height: 125px;
+    display: inline-block;
+    margin-right: 285px;
+}
+#sizebox {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 75%;
+    padding-top: 10px;
+}
+#searchbox {
+    background-color: #444444;
+    width: 250px;
+    display: block;
+    border-radius: 15px;
+    /* box-shadow: 2px 3px black; */
+    
+}
+#searchbar {
+    height: 30px;
+    width: 120px;
+    margin: 15px 0px;
+    text-align: center;
+}
+#sizebox a {
+    color: #E4C33C;
+    display: inline-block;
+}
+#sizebox p {
+    display: inline-block;
+    
+}
+#black {
+    color: black;
+}
+#navigationbar {
+    width: 900px;
+    background-color: #467EAD;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 7.5px;
+}
+#navigationbar p {
+    color: white;
+    font-size: 130%;
+    padding: 11px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+#maincontent {
+    padding: 30px;
+    padding-left: 120px;
+    border-bottom: 2px solid #444444;
+}
+#list {
+    text-align: center;
+    width: 20%;
+    padding: 0px;
+    display: inline-block;
+}
+#list li a{
+    color: white;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+#list ul {
+    list-style: none;
+}
+#list li {
+    font-size: 85%;
+    margin-bottom: 10px;
+}
+#list ul li:before{
+    content: "»";
+    color: #E4C33C;
+    padding: 5px;
+}
+#info {
+    display: inline-block;
+    color: white;
+    width: 70.5%;
+    vertical-align: top;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 85%;
+}
+#ZOP {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#learned {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#learned h3 {
+    font-weight: 1000;
+    font-style: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#footer {
+    width: 100%;
+    min-height: 85px;
+    background-image: linear-gradient(to bottom right, #265781, #3270A6);
+    text-align: center;
+}
+#footer a {
+    font-size: 95%;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+#footer p {
+    font-size: 40%;
+    color: #ADCCE6;
+    margin-top: 15px;
+}
+#help {
+    padding-top: 35px;
+}
+.guides {
+    width: 65%;
+    margin: 0px auto;
+}
+.starting {
+    border-top: 3px solid #73A7D5;
+    width: 35%;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 80%;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.starting p {
+    width: 82.5%;
+    margin: 0px auto;
+}
+a {
+    text-decoration: none;
+    color: #ADCCE6;
+}
+.boxshadow {
+    box-shadow: 2px 3px 8px black;
+}
+.poem {
+    color: #E4C33C;
+    font-size: 130%;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+button {
+    height: 30px;
+    width: 35px;
+    color: white;
+    font-style: bold;
+    background-color: #245077;
+    margin-left: 2px;
+    border-radius: 5px;
+    outline: 30px lightgray;
+}
